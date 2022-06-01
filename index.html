@@ -11,7 +11,17 @@
   <body>
     <header class="header">
       <div class="container header-container">
+        <div class="hamburger">
+          <button class="hamburgerBtn">
+            <img src="./img/hamburger-menu.webp" alt="" />
+          </button>
+        </div>
         <nav class="navbar">
+          <div class="close">
+            <button class="closeBtn">
+              <img src="./img/x-png-icon-18.jpg" alt="" />
+            </button>
+          </div>
           <a class="navbarIcon-link" href="index.html">
             <img src="./img/home.png" alt="home img" />
           </a>
@@ -50,12 +60,12 @@
           </ul>
 
           <ul class="navbarLeft-list">
-            <li class="navbarLeft-item">
+            <li class="navbarLeft-item d-none">
               <a href="#" class="navbarLeft-link"
                 ><img src="./img/rss.png" alt="" class="navbarLeft-img"
               /></a>
             </li>
-            <li class="navbarLeft-item">
+            <li class="navbarLeft-item d-none">
               <a href="#" class="navbarLeft-link"
                 ><img src="./img/teleg.png" alt="" class="navbarLeft-img"
               /></a>
@@ -69,8 +79,140 @@
             </li>
           </ul>
         </nav>
+        <!-- <div class="navbar-main">
+          <ul class="navbar-main-list">
+            <li class="navbar-main-item">
+              <a href="#" class="navbar-main-link">
+                <img class="navbar-main-img" src="./img/Daryo.png" alt="" />
+              </a>
+            </li>
+            <li class="navbar-main-item">
+              <a href="#" class="navbar-main-link"
+                ><span> Ў</span> Кириллчага ўтказинг
+              </a>
+            </li>
+            <li class="navbar-main-item">
+              <p class="navbar-main-item-desc">
+                USD <span class="navbar-main-item-span"> 11010.88 </span>
+                <img
+                  class="navbar-main-item-img"
+                  src="./img/strelka.png"
+                  alt="navbar img"
+                />
+              </p>
+            </li>
+            <li class="navbar-main-item">
+              <p class="navbar-main-item-desc">
+                RUB <span class="navbar-main-item-span"> 175.26</span
+                ><img
+                  class="navbar-main-item-img"
+                  src="./img/strelkagreen.png"
+                  alt="navbar img"
+                />
+              </p>
+            </li>
+            <li class="navbar-main-item">
+              <p class="navbar-main-item-desc">
+                EUR <span class="navbar-main-item-span">11854.31 </span
+                ><img
+                  class="navbar-main-item-img"
+                  src="./img/strelkagreen.png"
+                  alt="navbar img"
+                />
+              </p>
+            </li>
+            <li class="navbar-main-item"></li>
+            <li class="navbar-main-item  d-block">
+            <a href="#">
+              <div class="main-item-box">
+                <img src="./img/pMarketLogo.svg" alt="" />
+                <div class="main-item-box-box">
+                  <span>Yuklab oling</span>
+                  <p>Google Play</p>
+                </div>
+              </div>
+            </a>
+            </li>
+            <li class="navbar-main-item d-block">
+              <a href="#">
+                <div class="main-item-box">
+                  <img src="./img/apple.svg" alt="" />
+                  <div class="main-item-box-box">
+                    <span>Yuklab oling</span>
+                    <p>App Store</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div> -->
       </div>
     </header>
+    <main class="main">
+      <section class="section-news">
+        <div class="container">
+          <ul class="news-list">
+            <li class="news-item">
+              <a class="news-link" href="#"><p>So‘nggi yangiliklar</p></a>
+              <ul class="news-item-list">
+                <li class="news-item-item">
+                  <div class="news-item-item-box">
+                    <div class="item-box-div">
+                      <a class="item-box-div-link" href="#">Mahalliy</a>
+                      <span class="item-box-div-span">17:42 Bugun</span>
+                      <span class="item-box-div-span">2345</span>
+                    </div>
+                    <a href="#" class="item-box-desc-link">
+                      O‘zbekistonda may oyida eng qimmat va <br />eng arzon
+                      palov qayerda tayyorlangani<br />
+                      ma’lum qilindi
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="news-item">
+              <div class="news-item-item-box">
+                <img src="./img/tree-736885__480.jpg" alt="" />
+                <div class="item-box-div">
+                  <a class="item-box-div-link" href="#">Mahalliy</a>
+                  <span class="item-box-div-span">17:42 Bugun</span>
+                  <span class="item-box-div-span">2345</span>
+                </div>
+                <a href="#" class="item-box-descLink">
+                  O‘zbekistonda may oyida eng qimmat va <br />eng arzon palov
+                  qayerda tayyorlangani<br />
+                  ma’lum qilindi
+                </a>
+                <p class="item-box-desc">
+                  Markaziy bank xorijiy valyutalarning o‘zbek so‘miga nisbatan
+                  2-iyunda amalda bo‘ladigan qiymatini belgiladi
+                </p>
+              </div>
+            </li>
+            <li class="news-item">
+              <a class="news-link" href="#"><p>Asosiy yangiliklar</p></a>
+              <ul class="news-item-list">
+                <li class="news-item-item">
+                  <div class="news-item-item-box">
+                    <div class="item-box-div">
+                      <a class="item-box-div-link" href="#">Mahalliy</a>
+                      <span class="item-box-div-span">17:42 Bugun</span>
+                      <span class="item-box-div-span">2345</span>
+                    </div>
+                    <a href="#" class="item-box-desc-link">
+                      O‘zbekistonda may oyida eng qimmat va <br />eng arzon
+                      palov qayerda tayyorlangani<br />
+                      ma’lum qilindi
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
   <script src="./js/app.js"></script>
 </html>
